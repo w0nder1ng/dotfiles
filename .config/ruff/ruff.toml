@@ -1,0 +1,26 @@
+target-version = "py311"
+unsafe-fixes = true
+
+[lint]
+preview = true
+select = ["ALL"]
+ignore = [
+    "ERA001",
+    "D",
+    "ANN",
+    "T20",
+    "C901",
+    "S101",
+    "PLR",
+    "S311",
+    "TD002",
+    "TD003",
+    "PTH123",
+    "CPY001",
+    "INP001",
+    "PLW1514",
+]
+unfixable = ["F401"]
+
+[format]
+preview = true
