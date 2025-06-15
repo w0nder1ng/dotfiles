@@ -1,5 +1,5 @@
 set fish_greeting ""
 
 if status is-interactive
-    source ~/.fish_aliases
+    # enter commands here
 end
